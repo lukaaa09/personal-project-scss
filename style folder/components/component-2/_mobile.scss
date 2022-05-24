@@ -1,0 +1,52 @@
+@import './shared';
+@media screen and (max-width: 767px) and (min-width: 320px){
+    .over{
+     
+        font-size: 23px;
+        margin-left: 80px;
+        margin-top: 39px;
+    }
+    .lorem-txt{
+        margin-top: 25px;
+        font-family: $secondary-font;
+        width: 277px;
+        text-decoration: underline;
+        line-height: 25px;
+        margin-left: 28px;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        margin-left: 23px;
+        width: 270px;
+    }
+    .span-txt1{
+        font-family: $secondary-font;
+        display: flex;
+        font-size: 14px;
+        letter-spacing: -1px;
+        text-align: center;
+        margin-top: 12px;
+
+
+    }
+    .span-txt2{
+        font-family: $secondary-font;
+        font-size: 14px;
+        letter-spacing: -1px;
+        margin-top: 7px;
+        text-align: center;
+
+    }
+    .p-txt{
+        font-family: $secondary-font;
+        font-size: 14px;
+        width: 289px;
+        margin-left: 25px;
+        margin-top: 5px;
+        line-height: 20px;
+
+    }
+
+}

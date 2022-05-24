@@ -1,0 +1,29 @@
+@import './shared';
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .over{
+        font-size: 27px;
+        margin-left: 80px;
+        margin-top: 39px;
+    }
+    .lorem-txt{
+        margin-top: 38px;
+        font-family: $secondary-font;
+        width: 550px;
+        text-decoration: underline;
+        line-height: 25px;
+        margin-left: 80px;
+    }
+    .flex{
+        margin-left: 80px;
+        width: 570px;
+        margin-top: 30px;
+    }
+    .p-txt{
+        font-family: $secondary-font;
+        font-size: 16px;
+        margin-left: 80px;
+        width: 580px;
+
+    }
+
+}

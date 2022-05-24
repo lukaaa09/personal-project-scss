@@ -1,0 +1,44 @@
+@import './shared';
+@media screen and (max-width: 1920px) and (min-width: 1024px){
+    .middle-container{
+        display: flex;
+        position: relative;
+        bottom: 23px;
+        .gray-container{
+            width: 180px;
+            height: 450px;
+            background-color: #DBDBDB;
+        }
+        .dark-grey-container{
+            width: 320px;
+            height: 450px;
+            background-color: #898989;
+        }
+        .over{
+            
+            font-size: 27px;
+            margin-left: 360px;
+            margin-top: 32px;
+        }
+        .lorem-txt{
+            margin-top: 38px;
+            font-family: $secondary-font;
+            width: 600px;
+            text-decoration: underline;
+            line-height: 25px;
+            margin-left: 360px;
+        }
+        .flex{
+            margin-left: 350px;
+            width: 570px;
+            margin-top: 30px;
+        }
+        .p-txt{
+            font-family: $secondary-font;
+            font-size: 16px;
+            margin-left: 355px;
+            width: 580px;
+
+        }
+    }
+}

@@ -1,0 +1,75 @@
+@import './shared';
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .dark-content-1{
+        width: 100%;
+        height: 500px;
+        background-color: $footer-col-2;
+        margin-top: 50px;
+        
+        .white-container{
+            width: 530px;
+            height: 270px;
+            background-color: $header-txt-color;
+            margin-left: 89px;
+            position: relative;
+            top: 75px;
+
+            .grid-txt{
+                font-family: $main-font;
+                margin-left: 20px;
+                font-size: 25px;
+                color: white;
+                position: relative;
+                bottom: 35px;
+                right: 20px;
+            }
+
+            .grid-container{
+                display: grid;
+                grid-template-columns: 95px 95px 95px 95px 95px;
+                gap: 9px;
+                margin-left: 10px;
+                margin-top: 270px;
+
+                .cell-1{
+                    background-color: $header-txt-color;
+                    height: 100px;
+                    &:hover{
+                        border: 3px solid red;
+                    }
+                }
+                .cell-2{
+                    background-color: $header-txt-color;
+                    height: 100px;
+                    &:hover{
+                        border: 3px solid red;
+                    }
+                } 
+                .cell-3{
+                    background-color: $header-txt-color;
+                    height: 100px;
+                    &:hover{
+                        border: 3px solid red;
+                    }
+                } 
+                .cell-4{
+                    background-color: $header-txt-color;
+                    height: 100px;
+                    &:hover{
+                        border: 3px solid red;
+                    }
+                }
+                .cell-5{
+                    background-color: $header-txt-color;
+                    height: 100px;
+                    &:hover{
+                        border: 3px solid red;
+                    }
+                }
+                
+            }
+        }
+
+    }
+    
+}

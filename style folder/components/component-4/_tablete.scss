@@ -1,0 +1,59 @@
+@import './shared';
+@media screen and (max-width: 1023px) and (min-width: 768px){
+    .map{
+        height: 420px;
+    }
+    .map-container{
+        position: relative;
+    }
+    .red-map-content{
+        width: 300px;
+        height: 420px;
+        background-color: $header-red-color;
+        position: absolute;
+        top: 0;
+        opacity: 0.6;
+        margin-left: 50px;
+    }
+     .map-txt{
+
+         margin-left: 108px;
+         font-size: 23px;
+         padding-top: 55px;
+     }
+     .mark-content{
+         margin-left: 140px;
+         margin-top: 10px;
+         width: 25px;
+         height: 30px;
+         margin-bottom: 3px;
+
+     }
+     .adress-txt{
+         color: white;
+         margin-left: 65px;
+         font-family: $main-font;
+         width: 170px;
+         text-align: center;
+         font-size: 14px;
+     }
+     .line-map{
+         background-color: $header-txt-color;
+         width: 210px;
+         height: 2px;
+         margin-left: 50px;
+         margin-bottom: 19px;
+        }
+    
+      .img-icon-1{
+        margin-top: 25px;
+        margin-left: 87px;
+        border: 1px solid white;
+        display: flex;
+        width: 135px;
+        height: 45px;
+        justify-content: space-evenly;
+        
+    }
+    
+}

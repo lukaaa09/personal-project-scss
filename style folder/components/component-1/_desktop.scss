@@ -1,0 +1,119 @@
+@import './shared';
+@media screen and (max-width: 1920px) and (min-width: 1024px){
+    .header-container{
+        width: 100%;
+        height: 375px;
+        background-color: $header-bg-color;   
+
+        .container-2{
+            display: flex;
+        }
+        .red-content{
+            margin-left: 180px;
+            width: 315px;
+            height: 375px;
+            background-color: $header-red-color;
+            margin-bottom: 25px;
+            position: relative;
+
+    
+            
+            .date{
+                font-family: $secondary-font;
+                font-size: 15px;
+                color: $header-txt-color;
+                margin-left: 30px;
+                width: 200px;
+                margin-top: 7px;
+                letter-spacing: -0.3px;
+            }
+            .img-1{
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+            .free-txt{
+                font-family: $main-font;
+                color: $header-txt-color;
+                position: relative;
+                bottom: 5px;
+            }
+            .img-icon{
+                margin-top: 44px;
+                margin-left: 179px;
+                border: 1px solid white;
+                display: flex;
+                width: 135px;
+                height: 45px;
+                justify-content: space-evenly;
+                
+            }
+            .icon-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 45px;
+                height: 44px;
+
+                &:not(:last-child){
+                    border-right: 1px solid white;
+                }
+            }
+            .black-cube{
+                height: 45px;
+                position: absolute;
+                top: 0;
+                right: -45px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #111111;
+                width: 45px;
+                
+            }
+         
+        }
+
+        .footer{
+            width: 100%;
+            display: flex;
+            position: relative;
+            bottom: 23px;
+            .light-footer{
+                width: 509px;
+                height: 55px;
+                background-color: #DBDBDB;
+            }
+            .dark-footer{
+                width: calc(100vw - 509px);
+                height: 55px;
+                background-color: #111111;
+                .arrow-icon{
+                    margin-left: 54.5%;
+                    height: 60px;
+                   
+                    .left{
+                        margin-bottom: 20px;
+                        margin-left: 17px;
+                        &:hover{
+                            background-color: red;
+                        }
+                    }
+                    .border-1{
+                        margin-left: 15px;
+
+                    }
+                    .right{
+                        margin-bottom: 20px;
+                        margin-left: 15px;
+                    }
+                    .border-2{
+                        margin-left: 12px;
+
+                    }
+                }
+
+    
+            }
+        }
+    }
+}
